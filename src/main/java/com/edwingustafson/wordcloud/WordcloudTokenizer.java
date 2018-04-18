@@ -1,5 +1,7 @@
 package com.edwingustafson.wordcloud;
 
+import static com.edwingustafson.wordcloud.WordcloudConstants.*;
+
 import com.kennycason.kumo.nlp.tokenizer.WordTokenizer;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -14,6 +16,6 @@ public class WordcloudTokenizer implements WordTokenizer {
 
     @Override
     public List<String> tokenize(final String sentence) {
-        return Arrays.asList(sentence.replaceAll("[_“”]+", "" ).toLowerCase().split("\\s+"));
+        return Arrays.asList(sentence.replaceAll(REGEX_DROP_CHARACTERS, EMPTY_STRING ).toLowerCase().split(REGEX_WORD_SEPARATOR));
     }
 }
