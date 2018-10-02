@@ -33,6 +33,7 @@ public interface WordcloudConstants {
             "even",
             "from",
             "have",
+            "having",
             "him",
             "hump",
             "into",
@@ -48,6 +49,7 @@ public interface WordcloudConstants {
             "more",
             "most",
             "myself",
+            "no",
             "oh",
             "only",
             "out",
@@ -80,6 +82,8 @@ public interface WordcloudConstants {
             "your",
             "was",
             "way",
+            "where",
+            "yes",
             "dummy"
     );
 }
