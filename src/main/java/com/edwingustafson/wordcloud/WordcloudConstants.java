@@ -78,6 +78,7 @@ public interface WordcloudConstants {
             "would",
             "you",
             "your",
+            "was",
             "way",
             "dummy"
     );
