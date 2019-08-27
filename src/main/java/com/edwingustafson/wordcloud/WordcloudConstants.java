@@ -28,6 +28,7 @@ public interface WordcloudConstants {
             "been",
             "before",
             "came",
+            "chapter",
             "come",
             "could",
             "even",
